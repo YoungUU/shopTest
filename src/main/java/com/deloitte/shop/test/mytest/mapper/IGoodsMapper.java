@@ -1,10 +1,8 @@
 package com.deloitte.shop.test.mytest.mapper;
 
 import com.deloitte.shop.test.mytest.entity.Goods;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
+
 @Mapper
 public interface IGoodsMapper {
 

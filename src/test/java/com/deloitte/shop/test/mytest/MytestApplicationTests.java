@@ -51,10 +51,10 @@ public class MytestApplicationTests {
 //		System.out.println(addGoodsBl);
 
 		//4.测试List<Goods> getAll()
-//		List<Goods> goods = service.getAll();
-//		for(Goods good:goods){
-//			System.out.println(good.toString());
-//		}
+		List<Goods> goods = service.getAll();
+		for(Goods good:goods){
+			System.out.println(good.toString());
+		}
 
 	}
 
